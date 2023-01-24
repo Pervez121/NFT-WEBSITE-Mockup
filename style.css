@@ -1,0 +1,243 @@
+ul.navbar-nav.mr-auto {
+    display: flex;
+    justify-content: center;
+    flex: auto;
+}
+.title-spans{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.background-picture{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+}
+.bg-black{
+    background-color: black;
+}
+.bg-blue{
+background-color: #0300e5;
+}
+.green{
+    color: #abf20e;
+}
+.white{
+color: white !important; 
+}
+a.navbar-brand.Bold-logo {
+    font-size: xxx-large;
+    font-weight: 700;
+}
+
+button.btn.btn-outline-light.explore-btn {
+    font-size: larger;
+    font-weight: 700;
+    border-radius: 29px;
+    /* border: 23px white; */
+}
+
+nav.navbar.navbar-expand-lg.navbar-dark.bg-blue {
+    border-bottom: solid rgba(255, 255, 255, 0.829) 1px;
+    padding: 25px 0px;
+}
+.margin-auto, .landing, .chipms-banner, .artsts-sec{
+margin: auto;
+}
+.main-navigation-box.border-bottom-1.border-light, .landing, .chipms-banner , .mai-artists, .artsts-sec {
+    width: 85%;
+}
+
+ul.landing-title {
+    list-style-type: none;
+    display: block;
+    border-radius: 15px;
+    font-size: 7vw;
+    font-weight: 700;
+    padding: 15px 0px
+}
+span.NFTs {
+    background-color: #abf20e;
+    border-radius: 0px 100px 100px 0px;
+    padding: 0px 24px;
+    color: black;
+}
+.landing-title > li:nth-child(1){
+    background-color: black;
+    padding: 0px 25px 0px 15px;
+    border-radius: 40px 40px 40px 0px ;
+    /* display: inline-flex; */
+    
+}
+.landing-title > li:nth-child(2){
+    background-color: black;
+    padding: 0px 25px 0px 15px;
+    width: fit-content  ;
+    border-radius: 0px 100px 100px 0px;
+}
+.landing-title > li:nth-child(3){
+  background-color: black;
+    padding: 0px 25px 0px 15px;
+    border-radius: 0px 100px 100px 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    /* display: inline-flex; */
+}
+
+
+.sub-title-box {
+    background-color: #abf20e;
+    display: inline-flex;
+    padding: 4%;
+    border-radius:  50px 50px;
+}
+i.fa-solid.fa-chevron-circle-right.fa-xl.fa-beat-fade.my-icon {
+    color: black;
+    margin: 0px 28px;
+}
+
+img.round-img {
+    margin-left: 15px;
+    width: 100%;
+    height: auto;
+}
+h2.subtitle {
+    margin: 0;
+    font-size: 2.5vw;
+    padding: 15 0px;
+    color: black;
+}
+img.chimps-image {
+    width: 100%;
+    background-image: linear-gradient(1deg, #030326, #0d0c36);
+    border-radius: 53px;
+}
+
+.chimps-image-box {
+    padding: 6% 0%;
+}
+.bg-gradient-one{
+    background-image: linear-gradient(1deg, #030231, #0300e5);
+}
+.bg-gardient-two{
+    background-image: linear-gradient(1deg, #01010e, #030231);
+}
+.bg-gradient-three {
+    background-image: linear-gradient(1deg, #000000, #01010e);
+}
+.artists-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin: 30px 0px; */
+}
+.artists-nav-item {
+    margin: auto 0px;
+}
+.arrow-icons {
+    font-size: 4vw !important;
+}
+.mai-artists {
+    padding: 20px auto;
+  
+}
+img.artist-image {
+    border-radius: 10px;
+    width: 221px;
+    height: auto;
+    max-width: 100%;
+}
+
+
+.artist-image-box , .about-artist{
+    text-align: center;
+}
+
+.artist-box {
+    background-color: #0a0a2a;
+    display: inline-block;
+    padding: 6%;
+    border-radius: 12px;
+    /* margin: 0px 0px 0px 10px ; */
+    width: 100%;
+}
+.for-padding {
+    padding: 5px 10px;
+}
+
+p.artist-name.white {
+    margin: 5% auto;
+    font-weight: 600;
+}
+
+a.artist-ranking.white {
+    font-size: medium;
+    color: #abf20e !important;
+    font-weight: 600;
+}
+
+p.sales-count.white {
+    margin: 5% 0% 0% 0%;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.artists-slider {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    flex-wrap:wrap;
+    padding: 35px;
+}
+
+section.art-work-box {
+    padding: 40px 0px;
+}
+h2.popular-work-title.white {
+    text-align: center;
+    font-size: 4.5vw;
+    font-weight: 700;
+    /* display: flex; */
+    font-variant-caps: normal;
+    /* flex-direction: row; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+p.popular-art-content.white {
+    text-align: left;
+    font-size: 1.6vw;
+    font-weight: 500;
+}
+.art-work-heading-and-content > div{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+
+
+
+/* ------------------------------------------------ */
+.mai-artists.margin-auto {
+    position: relative;
+}
+
+.artists-nav-item.container {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-basis: max-content;
+    justify-content: end !important;
+}
+
+button.glider-next {
+    position: absolute;
+}
+
+button.glider-prev {
+    position: absolute;
+    left: 823px;
+    z-index: 999;
+}
