@@ -188,6 +188,28 @@
     </section>
   </div>
 
+  <div class="bg-gradient-five">
+    <section class="explore-markwtplace">
+      <div class="marketplace-heading-box">
+        <h1 class="marketplace-heading">
+          Explore Marketplace
+        </h1>
+      </div>
+      <div class="marketplace-nav">
+        <div class="marketplace-nav-menu">
+          <ul-marketplace-menu-list>
+            <li class="marketplace-menu-item">
+              
+            </li>
+          </ul-marketplace-menu-list>
+        </div>
+        <div class="marketplace-filter">
+          <Button class="filter">Filter</Button>
+        </div>
+      </div>
+    </section>
+  </div>
+
 
 
 
@@ -202,6 +224,34 @@
   <!-- <script>
     new Glide('.glide').mount()
   </script> -->
+<script>
+  var before = document.querySelector('#options-peek-before')
+var after = document.querySelector('#options-peek-after')
+
+var glide = new Glide('#options-peek', {
+  startAt: 1,
+  perView: 3,
+  peek: {
+    before: before.value,
+    after: after.value
+  }
+})
+
+function peek () {
+  glide.update({
+    peek: {
+      before: before.value,
+      after: after.value
+    }
+  })
+}
+
+before.addEventListener('input', peek)
+after.addEventListener('input', peek)
+
+glide.mount()
+</script>
+
   <!-- my script file -->
   <script src="./js/script.js"></script>
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
