@@ -1,3 +1,6 @@
+*{
+    margin: 0px;
+}
 ul.navbar-nav.mr-auto {
     display: flex;
     justify-content: center;
@@ -163,8 +166,30 @@ img.artist-image {
 }
 .for-padding {
     padding: 5px 10px;
+    display: table-footer-group !important;
 }
-
+.slick-prev:before {
+    content: '←';
+    font-size: 60px;
+    color: white;
+}
+.slick-next:before {
+    content: '→';
+    font-size: 60px;
+    color: #abf20e;
+}
+.slick-prev {
+    position: relative;
+    top: -74px;
+    left: 318px;
+    display: inlin;
+    z-index: 199;
+}
+button.slick-next.slick-arrow {
+    position: absolute;
+    top: -41px;
+    right: 105px;
+}
 p.artist-name.white {
     margin: 5% auto;
     font-weight: 600;
@@ -241,3 +266,29 @@ button.glider-prev {
     left: 823px;
     z-index: 999;
 }
+@media only screen and (max-width: 1200px) 
+{
+    .slick-prev {
+        position: relative;
+        left: 214px;
+    
+    }
+ }
+ @media only screen and (max-width: 1064px) 
+ {
+     
+         .slick-slide {
+             margin: 0px 6px;
+         }
+     
+  }
+ @media only screen and (max-width: 992px) 
+{
+    .slick-prev {
+        position: relative;
+        left: 144px;
+    
+    }
+ }
+
+
