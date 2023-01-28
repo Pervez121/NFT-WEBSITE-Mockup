@@ -266,6 +266,96 @@ button.glider-prev {
     left: 823px;
     z-index: 999;
 }
+
+
+ul.marketplace-menu-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    list-style-type: none;
+    align-items: center;
+}
+
+.marketplace-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: initial;
+}
+
+li.nav-item.dropdown.title-flex {
+    color: white;
+    border: solid #ffffff87 1px;
+    border-radius: 29px;
+    margin: 0px 3%
+}
+
+li.marketplace-menu-item {
+    color: white;
+    padding: 0% 3%;
+    border: solid 1px #ffffff87;
+    border-radius: 24px;
+}
+
+button.filter {
+    border: 1px solid #ffffff87;
+    border-radius: 34px;
+    padding: 7px 17px;
+    color: white;
+    background-color: #ffdead00;
+}
+
+.marketplace-filter {
+    /* display: flex; */
+    padding: 0px;
+    /* flex-direction: row; */
+}
+h1.marketplace-heading {
+    text-align: center;
+    margin: 3% 0%;
+    color: white;
+    font-weight: 700;
+    font-size: 8vw;
+}
+
+a#navbarDropdown {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.bg-dark-blue{
+    background-color: #0a0a2a;
+}
+.border-cards{
+    padding: 2%;
+    border-radius: 25px;
+}
+
+img.card-img-top {
+    border-radius: 16px;
+}
+.card.border-cards {
+    background-color: #0c077c;
+    border: solid 1px #ffffff87;
+}
+.card-body {
+    display: flex;
+    padding: 5%;
+    border: solid 1px white;
+    border-radius: 7px;
+    margin-bottom: 5%;
+    background-color: #04042699;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+h5.card-title.white {
+    margin: 0px;
+}
+
+
 @media only screen and (max-width: 1200px) 
 {
     .slick-prev {
