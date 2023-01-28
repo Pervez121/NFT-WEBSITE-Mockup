@@ -128,6 +128,15 @@ img.chimps-image {
 .bg-gradient-three {
     background-image: linear-gradient(1deg, #000000, #01010e);
 }
+.bg-gradient-four{
+    background-image: linear-gradient(180deg,  #000000, #020129)
+}
+.bg-gradient-five{
+    background-image: linear-gradient(180deg, #020129,  #040350);
+}
+.bg-gradient-six{
+    background-image: linear-gradient(180deg, #040350, #0300e5);
+}
 .artists-nav{
     display: flex;
     flex-direction: row;
@@ -217,7 +226,7 @@ p.sales-count.white {
 }
 
 section.art-work-box {
-    padding: 40px 0px;
+    padding-top: 40px 
 }
 h2.popular-work-title.white {
     text-align: center;
@@ -312,7 +321,7 @@ button.filter {
 }
 h1.marketplace-heading {
     text-align: center;
-    margin: 3% 0%;
+    padding: 3% 0%;
     color: white;
     font-weight: 700;
     font-size: 8vw;
@@ -335,16 +344,16 @@ img.card-img-top {
     border-radius: 16px;
 }
 .card.border-cards {
-    background-color: #0c077c;
+    background-color: #0f0e1d00;
     border: solid 1px #ffffff87;
 }
 .card-body {
     display: flex;
     padding: 5%;
-    border: solid 1px white;
+    border: solid 1px  #ffffff87;
     border-radius: 7px;
     margin-bottom: 5%;
-    background-color: #04042699;
+    background-color: #0404265d;
     flex-direction: row;
     justify-content: space-between;
     align-content: center;
@@ -353,6 +362,9 @@ img.card-img-top {
 
 h5.card-title.white {
     margin: 0px;
+}
+.card-deck.card-box {
+    padding-top: 3%;
 }
 
 
