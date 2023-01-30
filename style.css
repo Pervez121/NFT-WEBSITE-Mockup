@@ -492,6 +492,14 @@ img.chimp-no {
         border-radius: 0px 55px 55px 0px;
     }
 
+    li.title-spans.white.bg-black {
+        font-size: 5.2vw;
+        width: fit-content;
+    }
+    
+     img.round-img {
+        width: 9vw;
+    } 
 @media only screen and (max-width: 1200px) 
 {
     .slick-prev {
