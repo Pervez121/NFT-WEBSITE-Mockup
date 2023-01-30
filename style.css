@@ -20,6 +20,9 @@ ul.navbar-nav.mr-auto {
 .bg-blue{
 background-color: #0300e5;
 }
+.bg-footer{
+    background-color: #2b2a2a;
+}
 .green{
     color: #abf20e;
 }
@@ -333,7 +336,7 @@ a#navbarDropdown {
     align-items: center;
 }
 .bg-dark-blue{
-    background-color: #0a0a2a;
+    background-color: #0b0b0b;
 }
 .border-cards{
     padding: 2%;
@@ -366,7 +369,110 @@ h5.card-title.white {
 .card-deck.card-box {
     padding-top: 3%;
 }
+.chim-img-box {
+    display: table-cell;
+}
 
+img.chimp-no {
+    height: 80vh;
+    padding: 5%;
+    border-radius: 36px;}
+
+
+    .papular-chimps {
+        padding-top: 4%;
+    }
+    
+
+    .creator-head {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    h2.creator-heading {
+        color: white;
+        font-size: 6.5vw;
+        font-weight: 700;
+    }
+    
+    .creator-body {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        /* padding: 30px; */
+        border-radius: 56px;
+        background-color: #6c6b6b;
+        border: solid 2px #abf20e;
+    }
+    
+    .number {
+        font-size: 4vw;
+        font-weight: 700;
+        color: black;
+    }
+    
+    .know-more {
+        display: flex;
+        width: 25vw;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border: solid 1px black;
+        border-radius: 74px;
+        padding: 5px;
+        color: white;
+        background-color: black;
+    }
+    
+    p.text {
+        font-size: 1.5vw;
+        font-weight: 700;
+        margin: 0px;
+    }
+    
+    img.cirecle-image {
+        width: 4vw;
+    }
+    
+    .upload-section > h4 {
+        font-size: 3vw;
+        font-weight: 700;
+    }
+    
+    .upload-section > p {
+        font-size: 1.7vw;
+        font-weight: 500;
+        text-align: justify;
+
+    }
+    
+
+    
+    .upload-section {
+        background-color: #abf20e;
+        padding: 7%;
+        border-radius: 51px 0px 0px 0px;
+    }
+
+    .instrections > p {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: baseline;
+        font-size: 2vw;
+        color: black;
+        font-weight: 600;
+    }
+
+    .instrections{
+        padding: 0% 7%;
+    }
+    img.right-image {
+        width: 40vw;
+        border-radius: 0px 55px 55px 0px;
+    }
 
 @media only screen and (max-width: 1200px) 
 {
