@@ -138,7 +138,13 @@ img.chimps-image {
     background-image: linear-gradient(180deg, #020129,  #040350);
 }
 .bg-gradient-six{
-    background-image: linear-gradient(180deg, #040350, #0300e5);
+    background-image: linear-gradient(180deg, #040350, #0300e5, #03023f);
+}
+.bg-gradient-seven{
+    background-image: linear-gradient(180deg,  #03023f, #030127);
+}
+.bg-gradient-nine{
+    background-image: linear-gradient(180deg,  #030127, #000000);
 }
 .artists-nav{
     display: flex;
@@ -304,9 +310,16 @@ li.nav-item.dropdown.title-flex {
 
 li.marketplace-menu-item {
     color: white;
-    padding: 0% 3%;
-    border: solid 1px #ffffff87;
-    border-radius: 24px;
+     padding: 0% 3%;
+  /*  border: solid 1px #ffffff87;
+    border-radius: 24px; */
+}
+ul.catogries {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    display: none;
 }
 
 button.filter {
@@ -365,6 +378,7 @@ img.card-img-top {
 
 h5.card-title.white {
     margin: 0px;
+    font-size: 1.6vw;
 }
 .card-deck.card-box {
     padding-top: 3%;
@@ -374,7 +388,7 @@ h5.card-title.white {
 }
 
 img.chimp-no {
-    height: 80vh;
+    width: 100%;
     padding: 5%;
     border-radius: 36px;}
 
@@ -389,6 +403,10 @@ img.chimp-no {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        padding: 22px;
+    }
+    .the-logo {
+        width: 11vw;
     }
     
     h2.creator-heading {
@@ -497,6 +515,56 @@ img.chimp-no {
         left: 144px;
     
     }
+ }
+ @media only screen and (max-width: 768px) 
+{
+    ul.catogries{
+        display: flex;
+    }
+    ul.marketplace-menu-list {
+        display: none;
+    }
+    img.the-logo {
+        width: 15vw;
+    }
+ }
+ @media only screen and (max-width: 576px) 
+{
+    p.artist-name.white {
+        font-size: 11px;
+    }
+    
+    a.artist-ranking.white {
+        font-size: 10px;
+    }
+    
+    p.sales-count.white {
+        font-size: 11px;
+    }
+    
+    h2.popular-work-title.white {
+        font-size: 9vw;
+    }
+    
+    p.popular-art-content.white {
+        font-size: 3vw;
+        text-align: center;
+    }
+    div.border-cards {
+        display: contents;
+    }
+
+    .card.border-cards {
+    
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    
+    }
+    h5.card-title.white {
+        font-size: 5vw;
+    }
+
  }
 
 
