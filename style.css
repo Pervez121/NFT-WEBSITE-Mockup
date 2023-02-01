@@ -58,7 +58,8 @@ ul.landing-title {
     border-radius: 15px;
     font-size: 7vw;
     font-weight: 700;
-    padding: 15px 0px
+    padding: 15px 0px 0px 0px;
+    margin-bottom: 13px;
 }
 span.NFTs {
     background-color: #abf20e;
@@ -141,10 +142,10 @@ img.chimps-image {
     background-image: linear-gradient(180deg, #040350, #0300e5, #03023f);
 }
 .bg-gradient-seven{
-    background-image: linear-gradient(180deg,  #03023f, #030127);
+    background-image: linear-gradient(180deg,  #050531, #03011b);
 }
 .bg-gradient-nine{
-    background-image: linear-gradient(180deg,  #030127, #000000);
+    background-image: linear-gradient(180deg,  #03011b, #000000);
 }
 .artists-nav{
     display: flex;
@@ -495,10 +496,22 @@ img.chimp-no {
     .instrections{
         padding: 0% 7%;
     }
-    img.right-image {
+    /* img.right-image {
         width: 44vw;
         object-fit: cover;
         border-radius: 0px 55px 55px 0px;
+    } */
+
+    .creator-right {
+        background-image: url(./images/chimps/banner.webp);
+        background-position: center;
+        width: 100%;
+        height: auto;
+        background-size: cover;
+        border-radius: 0px 54px 54px 0px;
+    }
+    .creator-main {
+        padding: 8% 0px 10px;
     }
     img.newslatter-image {
         width: 40vw;
@@ -523,34 +536,27 @@ img.chimp-no {
         font-weight: 500;
     }
     form {
-        display: grid;
+        display: flex;
         padding: 0% 5%;
-        /* line-height: 3; */
+        justify-content: space-between;
+        align-items: end;
     }
     
     input#mail {
         font-size: 18px;
-        padding: 8px;
-        border: solid 2px blue;
-        border-radius: 7px;
+        padding: 10px;
+        background: transparent;
+        border-style: none;
+        border-bottom-style: revert;
         margin: 5px 0px;
+        width: 70%;
+    }
+    i.fa-solid.fa-square-arrow-up-right.my-arrow {
+        color: white;
+        font-size: 4vw;
+        color: white;
     }
     
- 
-
-    /* .image {
-        background: url(./images/chimps/newslatter.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: contain;
-        width: 50%;
-        height: 50vw;
-    }
-    .main-newslatter-box {
-        padding: 6% 0%;
-        width: 50%;
-        height: 52vh;
-    } */
 
     li.title-spans.white.bg-black {
         font-size: 5.2vw;
