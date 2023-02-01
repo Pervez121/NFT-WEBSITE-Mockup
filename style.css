@@ -301,11 +301,19 @@ ul.marketplace-menu-list {
     align-items: initial;
 }
 
-li.nav-item.dropdown.title-flex {
+li.mini-catogries {
     color: white;
     border: solid #ffffff87 1px;
     border-radius: 29px;
     margin: 0px 3%
+}
+.dropdown-menu.show {
+    background-color: black;
+    color: white;
+}
+
+a.dropdown-item.nav-fonts {
+    color: white;
 }
 
 li.marketplace-menu-item {
@@ -491,6 +499,57 @@ img.chimp-no {
         width: 40vw;
         border-radius: 0px 55px 55px 0px;
     }
+    img.newslatter-image {
+        width: 40vw;
+        margin: 50px 0px;
+        border-radius: 50px;
+    }
+    
+    .main-newslatter-box {
+        padding-top: 5%;
+        position: relative;
+    }
+    .main-newslatter-box {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    h3.newslatter-text.white {
+        padding: 5%;
+        font-size: 5vw;
+        font-weight: 500;
+    }
+    form {
+        display: grid;
+        padding: 0% 5%;
+        /* line-height: 3; */
+    }
+    
+    input#mail {
+        font-size: 18px;
+        padding: 8px;
+        border: solid 2px blue;
+        border-radius: 7px;
+        margin: 5px 0px;
+    }
+    
+ 
+
+    /* .image {
+        background: url(./images/chimps/newslatter.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 50%;
+        height: 50vw;
+    }
+    .main-newslatter-box {
+        padding: 6% 0%;
+        width: 50%;
+        height: 52vh;
+    } */
 
 @media only screen and (max-width: 1200px) 
 {
