@@ -348,7 +348,7 @@ h1.marketplace-heading {
     padding: 3% 0%;
     color: white;
     font-weight: 700;
-    font-size: 8vw;
+    font-size: 5vw;
 }
 
 a#navbarDropdown {
@@ -414,7 +414,7 @@ img.chimp-no {
         padding: 22px;
     }
     .the-logo {
-        width: 11vw;
+        width: 8vw;
     }
     
     h2.creator-heading {
@@ -496,7 +496,8 @@ img.chimp-no {
         padding: 0% 7%;
     }
     img.right-image {
-        width: 40vw;
+        width: 44vw;
+        object-fit: cover;
         border-radius: 0px 55px 55px 0px;
     }
     img.newslatter-image {
@@ -551,6 +552,14 @@ img.chimp-no {
         height: 52vh;
     } */
 
+    li.title-spans.white.bg-black {
+        font-size: 5.2vw;
+        width: fit-content;
+    }
+    
+     img.round-img {
+        width: 9vw;
+    } 
 @media only screen and (max-width: 1200px) 
 {
     .slick-prev {
@@ -574,6 +583,9 @@ img.chimp-no {
         left: 144px;
     
     }
+    img.right-image {
+        width: 38vw;
+    }
  }
  @media only screen and (max-width: 768px) 
 {
@@ -586,6 +598,7 @@ img.chimp-no {
     img.the-logo {
         width: 15vw;
     }
+    
  }
  @media only screen and (max-width: 576px) 
 {
